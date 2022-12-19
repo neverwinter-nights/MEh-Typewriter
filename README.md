@@ -1,2 +1,2 @@
-# MEh-Typewriter
-Typewriter for the MEh Font
+# MEh Typewriter
+Typewriter for the MEh Font.
