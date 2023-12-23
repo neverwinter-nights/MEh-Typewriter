@@ -7,8 +7,8 @@ SET DEVENV="C:\Program Files\Microsoft Visual Studio\2022\Community\Common7\IDE\
 :: Original NuGet, downloaded from NuGet website, is required to restore dependencies.
 :: NuGet executable file built into the MSVS 2022 can not restore this solution.
 :: Download link: https://www.nuget.org/downloads
-:: Tested with NuGet.exe version 6.4.0.123.
-SET NUGET="D:\Tools\NuGet\nuget.exe"
+:: Tested with NuGet.exe version 6.8.0.131.
+SET NUGET="C:\Tools\NuGet\nuget.exe"
 
 SET SOLUTION="MEh Typewriter.sln"
 SET FONT_FILE="ext\Fonts\MEh_v2.0.ttf"
