@@ -74,7 +74,8 @@ namespace MEh_Typewriter
                     return;
             }
 
-            rtbConsole.Font = new System.Drawing.Font(settings.Font.Name, settings.Font.Size);
+            rtbConsole.Font = new System.Drawing.Font(settings.Font.Name, settings.Font.Size, FontStyle.Regular);
+            rtbConsole.LanguageOption = RichTextBoxLanguageOptions.AutoKeyboard;
             rtbConsole.Text = "";
         }
 
@@ -169,25 +170,7 @@ namespace MEh_Typewriter
 
         private void btnSh_Click(object sender, EventArgs e)
         {
-            InsertTextAtCursor("Š");
-            rtbConsole.Select();
-        }
-
-        private void btnThLight_Click(object sender, EventArgs e)
-        {
-            InsertTextAtCursor("θ");
-            rtbConsole.Select();
-        }
-
-        private void btnIO_Click(object sender, EventArgs e)
-        {
-            InsertTextAtCursor("Ö");
-            rtbConsole.Select();
-        }
-
-        private void btnIU_Click(object sender, EventArgs e)
-        {
-            InsertTextAtCursor("Ü");
+            InsertTextAtCursor("Ш");
             rtbConsole.Select();
         }
 
@@ -223,13 +206,7 @@ namespace MEh_Typewriter
 
         private void btnZh_Click(object sender, EventArgs e)
         {
-            InsertTextAtCursor("Ž");
-            rtbConsole.Select();
-        }
-
-        private void btnThHeavy_Click(object sender, EventArgs e)
-        {
-            InsertTextAtCursor("ð");
+            InsertTextAtCursor("Ж");
             rtbConsole.Select();
         }
 
@@ -263,6 +240,30 @@ namespace MEh_Typewriter
             rtbConsole.Select();
         }
 
+        private void btnThLight_Click(object sender, EventArgs e)
+        {
+            InsertTextAtCursor("θ");
+            rtbConsole.Select();
+        }
+
+        private void btnThHeavy_Click(object sender, EventArgs e)
+        {
+            InsertTextAtCursor("\u00F0"); // ð.
+            rtbConsole.Select();
+        }
+
+        private void btnIO_Click(object sender, EventArgs e)
+        {
+            InsertTextAtCursor("\u00D6"); // Ö.
+            rtbConsole.Select();
+        }
+
+        private void btnIU_Click(object sender, EventArgs e)
+        {
+            InsertTextAtCursor("\u00DC"); // Ü.
+            rtbConsole.Select();
+        }
+
         private void ToggleAdditionalButtonsPanel()
         {
             if (IsAdditionalButtonsPanelVisible)
@@ -275,17 +276,13 @@ namespace MEh_Typewriter
         {
             if (IsAdditionalButtonsPanelVisible)
             {
-                //tlpAdditionalButons.RowStyles[0].SizeType = SizeType.Percent;
-                //tlpAdditionalButons.RowStyles[0].Height = 100;
-                tlpMain.RowStyles[1].SizeType = SizeType.Absolute;
-                tlpMain.RowStyles[1].Height = 96;
+                tlpMain.RowStyles[2].Height = 64;
+                tlpR2.Visible = true;
             }
             else
             {
-                //tlpAdditionalButons.RowStyles[0].SizeType = SizeType.Absolute;
-                //tlpAdditionalButons.RowStyles[0].Height = 0;
-                tlpMain.RowStyles[1].SizeType = SizeType.Absolute;
-                tlpMain.RowStyles[1].Height = 0;
+                tlpMain.RowStyles[2].Height = 0;
+                tlpR2.Visible = false;
             }
         }
 
@@ -487,6 +484,29 @@ namespace MEh_Typewriter
                     rtbConsole.Text = sr.ReadToEnd();
                 }
             }
+        }
+
+        private void btnChangeMode_Click(object sender, EventArgs e)
+        {
+            ToggleAdditionalButtonsPanel();
+            UpdateAdditionalButtonsPanel();
+        }
+
+        private void btnII_Click(object sender, EventArgs e)
+        {
+            InsertTextAtCursor("Ы");
+            rtbConsole.Select();
+        }
+
+        private void btnMathDozen_Click(object sender, EventArgs e)
+        {
+            InsertTextAtCursor("E");
+            rtbConsole.Select();
+        }
+
+        private void tlpMain_Paint(object sender, PaintEventArgs e)
+        {
+
         }
     }
 }

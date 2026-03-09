@@ -303,6 +303,26 @@ namespace MEh_Typewriter.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
+        internal static System.Drawing.Bitmap QUOTE_LEFT {
+            get {
+                object obj = ResourceManager.GetObject("QUOTE_LEFT", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap QUOTE_RIGHT {
+            get {
+                object obj = ResourceManager.GetObject("QUOTE_RIGHT", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
         internal static System.Drawing.Bitmap R {
             get {
                 object obj = ResourceManager.GetObject("R", resourceCulture);
@@ -436,6 +456,16 @@ namespace MEh_Typewriter.Properties {
         internal static System.Drawing.Bitmap ZH {
             get {
                 object obj = ResourceManager.GetObject("ZH", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap Ы {
+            get {
+                object obj = ResourceManager.GetObject("Ы", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }

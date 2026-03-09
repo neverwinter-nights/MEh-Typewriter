@@ -261,5 +261,86 @@
   <ItemGroup>
     <None Include="img\btn\Other\Return.png" />
   </ItemGroup>
+  <ItemGroup>
+    <None Include="img\btn\Letter\A.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="img\btn\Letter\E.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="img\btn\Letter\F.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="img\btn\Letter\G.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="img\btn\Letter\H.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="img\btn\Letter\I.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="img\btn\Letter\IO.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="img\btn\Letter\IU.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="img\btn\Letter\K.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="img\btn\Letter\L.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="img\btn\Letter\M.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="img\btn\Letter\N.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="img\btn\Letter\O.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="img\btn\Letter\P.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="img\btn\Letter\R.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="img\btn\Letter\S.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="img\btn\Letter\SH.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="img\btn\Letter\T.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="img\btn\Letter\TH-H.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="img\btn\Letter\TH-L.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="img\btn\Letter\U.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="img\btn\Letter\V.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="img\btn\Letter\W.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="img\btn\Letter\Y.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="img\btn\Letter\Z.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="img\btn\Letter\ZH.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="img\btn\Letter\Ы.png" />
+  </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

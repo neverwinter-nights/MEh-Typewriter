@@ -11,7 +11,7 @@ SET DEVENV="C:\Program Files\Microsoft Visual Studio\2022\Community\Common7\IDE\
 SET NUGET="C:\Tools\NuGet\nuget.exe"
 
 SET SOLUTION="MEh Typewriter.sln"
-SET FONT_FILE="ext\Fonts\MEh_v2.0.ttf"
+SET FONT_FILE="ext\Fonts\MEh_v3.0.ttf"
 SET FONT_INSTALLER="ext\Fonts\Installer\FontInstaller.exe"
 
 SET BIN_SUBFOLDER=MEh Typewriter\bin\Release

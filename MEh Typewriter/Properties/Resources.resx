@@ -184,6 +184,12 @@
   <data name="P" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\img\btn\Letter\P.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
+  <data name="QUOTE_LEFT" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\img\btn\Other\QUOTE_LEFT.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="QUOTE_RIGHT" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\img\btn\Other\QUOTE_RIGHT.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
   <data name="R" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\img\btn\Letter\R.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
@@ -231,5 +237,8 @@
   </data>
   <data name="_4" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\img\btn\Other\4.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Ы" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\img\btn\Letter\Ы.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
 </root>
